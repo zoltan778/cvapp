@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  padding: 40px;
+  gap: 40px;
+}
+
+.App .Textarea,
+.App .Div {
+  min-height: 100%;
+  flex-basis: 50%;
+  border: 1px solid grey;
+  background-color: white;
+
+  padding: 10px;
+}
+
+.App .Div {
+  width: 50%;
+  background-color: grey;
+}
+
+.App button {
+  width: 100%;
+
+  background-color: red;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+}
