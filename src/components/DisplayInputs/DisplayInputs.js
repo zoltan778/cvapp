@@ -15,7 +15,7 @@ export default function DisplayInputs(props) {
                         <label>{inputs[index].label} </label>
                         <input type={inputs[index].type} 
                             //    value={inputs[index].type === "date" ? new Date().toISOString().slice(0, 10) : null} 
-                               />
+                        />
                     </div>);
                 else
                     ret.push(<div key={index} className="formField">
