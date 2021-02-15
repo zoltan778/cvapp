@@ -1,0 +1,23 @@
+.displayInputs {
+  border: 5px ridge green;
+
+  margin: 5px;
+  padding: 5px;
+
+  h3 {
+    color: red;
+  }
+
+  .formField {
+    display: flex;
+
+    label {
+      margin-right: 5px;
+    }
+
+    input,
+    textarea {
+      flex: 1;
+    }
+  }
+}

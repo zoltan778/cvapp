@@ -1,0 +1,26 @@
+.displayInputs {
+  border: 5px ridge green;
+  margin: 5px;
+  padding: 5px;
+}
+
+.displayInputs h3 {
+  color: red;
+}
+
+.displayInputs .formField {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.displayInputs .formField label {
+  margin-right: 5px;
+}
+
+.displayInputs .formField input,
+.displayInputs .formField textarea {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}

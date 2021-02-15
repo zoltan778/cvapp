@@ -13,9 +13,9 @@
       {"header2": "location", 
         "inputs": [
           {"label": "address", "type": "text"},
-          {"label": "postalCode", "type": "text"},
+          {"label": "postal code", "type": "text"},
           {"label": "city", "type": "text"},
-          {"label": "countryCode", "type": "text"},
+          {"label": "country code", "type": "text"},
           {"label": "region", "type": "text"}
         ] 
       }
@@ -35,8 +35,8 @@
       {"label": "company", "type": "text"},
       {"label": "position", "type": "text"},
       {"label": "website", "type": "url"},
-      {"label": "startDate", "type": "date"},
-      {"label": "endDate", "type": "date"},
+      {"label": "start date", "type": "date"},
+      {"label": "end date", "type": "date"},
       {"label": "summary", "type": "textarea"},
       {"header2": "highlights", 
       "inputs": [
@@ -65,7 +65,7 @@
     "inputs": [[
       {"label": "institution", "type": "textarea"},
       {"label": "area", "type": "textarea"},
-      {"label": "studyt type", "type": "text"},
+      {"label": "study type", "type": "text"},
       {"label": "start date", "type": "date"},
       {"label": "end date", "type": "date"},
       {"label": "gpa", "type": "text"},
