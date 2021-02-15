@@ -20,7 +20,8 @@ export default function DisplayInputs(props) {
                         <textarea />
                     </div>);
             else 
-                ret.push(<DisplayInputs key={index} header2={inputs[index].header2} inputs={inputs[index].inputs}/>);
+                ret.push(<DisplayInputs key={index} header2={inputs[index].header2} 
+                                        inputs={inputs[index].inputs}/>);
         }
 
         return ret;
