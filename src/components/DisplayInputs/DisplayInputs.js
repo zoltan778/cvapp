@@ -37,7 +37,7 @@ export default function DisplayInputs(props) {
             content = [...content, <div key={index} className="inputs">{renderInputs(props.inputs[index])}</div>];
         }
     else
-        content = [...content, <div key="0" className="inputs">{renderInputs(props.inputs)}</div>];
+        content = [...content, renderInputs(props.inputs)];
 
     return (
         <div className="displayInputs">
