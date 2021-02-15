@@ -34,10 +34,10 @@ export default function DisplayInputs(props) {
 
     if (Array.isArray(props.inputs[0]))
         for (let index = 0; index < props.inputs.length; index++) {
-            content = [...content, ...renderInputs(props.inputs[index])];
+            content = [...content, <div key={index} className="inputs">{renderInputs(props.inputs[index])}</div>];
         }
     else
-        content = [...content, ...renderInputs(props.inputs)];
+        content = [...content, <div key="0" className="inputs">{renderInputs(props.inputs)}</div>];
 
     return (
         <div className="displayInputs">
